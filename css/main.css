@@ -87,18 +87,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content-wrapper {
+   width: 90%;
+   margin: 50px 0;
+}
+
+
 /*---------- Base Header - Footer Styles ------*/
 
 header,
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header {
-
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -106,18 +112,24 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header figure {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-divider {
-
+  width:100%;
+  height: 1px;
+  border-top: 1px solid #c5c5c5;
 }
 
 
 header nav {
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,10 +143,16 @@ header nav ul {
 }
 
 footer .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  width: 55%;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+footer p {
+  margin: 0;
 }
 
 .footer-content {
@@ -145,7 +163,10 @@ footer .content-wrapper {
 }
 
 .contact {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
 }
 
 .contact h3 {
@@ -153,15 +174,24 @@ footer .content-wrapper {
 }
 
 .contact address {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
 }
 
 .social {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
 }
 
 .social-icons {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
 }
 .copyright {
   display: flex;
@@ -217,6 +247,10 @@ aside .inputs {
     flex-flow: column nowrap;
 }
 
+.features p {
+  margin: 0;
+}
+
 .features h2 {
     display: flex;
     justify-content: flex-start;
@@ -228,6 +262,7 @@ aside .inputs {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 55%;
 }
 
 .features p {
@@ -269,8 +304,11 @@ aside .inputs {
     flex-flow: row wrap;
 }
 
-.reviews .lacrue {
-
+.lacrue h3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 48%;
 }
 
 /*--------------- About Page Styles ----------*/
