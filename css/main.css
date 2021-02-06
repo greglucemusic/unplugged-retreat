@@ -83,9 +83,89 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+   /* ==========================================================================
+      Author's custom styles
+      ========================================================================== */
+   /* General Styles */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+ul,
+ol {
+
+}
+
+a {
+    color: #e2e3ed;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.125em;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25em;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
+    font-weight: normal;
+    line-height: 1.125em;
+}
+
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+    font-weight: normal;
+    line-height: 1.25em;
+}
+
+p {
+    font-size: 0.875em;
+    line-height: 1.25em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+      color: #000000;
+      text-decoration: none;
+      font-size: 1.125em;
+}
+
+address a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 0.875em;
+}
+
+.content-wrapper {
+
+}
+
+
+
+
+
+
 
 .content-wrapper {
    width: 90%;
@@ -168,6 +248,7 @@ footer p {
 }
 
 .contact {
+  width: 320px;
   margin: 50px 0;
   display: flex;
   justify-content: center;
@@ -175,9 +256,6 @@ footer p {
   flex-flow: column nowrap;
 }
 
-.contact h3 {
-
-}
 
 .contact address {
   display: flex;
@@ -187,6 +265,7 @@ footer p {
 }
 
 .social {
+  width: 320px;
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
@@ -218,6 +297,7 @@ footer p {
   width: 90%;
   height: 500px;
   margin: 0;
+  padding: 6%;
 }
 
 .hero-area .content-wrapper {
@@ -285,6 +365,7 @@ input[type=button] {
 .features h2 {
   width: 90%;
   margin-top: 50px;
+  margin-left: 5%;
   text-align: left;
 }
 
@@ -298,8 +379,10 @@ input[type=button] {
 
 .features .content-wrapper p {
     width: 200px;
+    text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .features article {
@@ -492,6 +575,20 @@ input[type=button] {
 @media only screen and (min-width: 768px) {
 /*Tablet styles here*/
 
+a {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 1.5em;
+}
+
+
+
+
 .content-wrapper {
    width: 84%;
 }
@@ -529,6 +626,18 @@ header nav {
   justify-content: center;
   align-items: center;
   width: 12%;
+}
+
+footer .content-wrapper{
+  width: 90%;
+}
+
+.footer-content {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 aside .content-wrapper {
@@ -571,6 +680,8 @@ aside .content-wrapper {
     flex-flow: row wrap;
 }
 
+
+
 /* ==========================================================================
    About Page
    ========================================================================== */
@@ -607,16 +718,32 @@ aside .content-wrapper {
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
 
+a {
+    font-size: 1.125em;
+}
 
+h1 {
+    font-size: 3.75em;
+}
+h3 {
+    font-size: 1.875em;
+}
 
+p {
+    font-size: 1.125em;
+}
 
 
 .features article {
   width: 32%;
   margin: 0;
+}
 
 
 
+address a {
+  font-size: 1.125em;
+}
 
 
 
