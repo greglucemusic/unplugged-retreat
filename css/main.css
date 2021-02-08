@@ -420,7 +420,10 @@ input[type=button] {
   flex-flow: column nowrap;
 }
 
-
+.features i {
+	font-size: 3.75em;
+  margin: 20px 0 10px 0;
+}
 /*------------ Reviews Styles - Homepage -------*/
 
 .reviews {
