@@ -280,6 +280,12 @@ footer p {
   align-items: center;
   flex-flow: row nowrap;
 }
+.social i {
+	font-size: 2.25em;
+  color: #527158;
+  margin: 10px 0 10px 0;
+}
+
 .copyright {
   display: flex;
   justify-content: center;
@@ -516,7 +522,6 @@ input[type=button] {
   text-align: left;
 
 }
-
 .faq .content-wrapper {
   margin: 0;
   display: flex;
@@ -531,7 +536,6 @@ input[type=button] {
   justify-content: flex-start;
   flex-flow: column nowrap;
 }
-
 
 
 /* ==========================================================================
@@ -693,26 +697,27 @@ footer .content-wrapper{
     flex-flow: row wrap;
 }
 aside {
-  height: 240px;
+  height: 270px;
 }
 
 aside .content-wrapper {
     margin-top: 30px;
     width: 84%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     flex-flow: row wrap;
 }
 aside .form-description {
   width: 290px;
   margin-top: 0;
+  margin-bottom: 30px;
   display: flex;
   justify-content: flex-start;
 }
 
 aside .form {
-  width: 290px;
+    width: 290px;
 }
 aside .form h3 {
   margin-top: 0;
@@ -831,7 +836,9 @@ h3 {
 p {
     font-size: 1.125em;
 }
-
+aside {
+  height: 290px;
+}
 
 .features article {
   width: 32%;
