@@ -110,6 +110,7 @@ a {
 }
 
 h1 {
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 2.25em;
     line-height: 1em;
@@ -140,11 +141,11 @@ p {
 }
 
 img {
-
+    width: 100%;
 }
 
 figure {
-
+    margin: 0;
 }
 
 address {
@@ -191,9 +192,11 @@ header .content-wrapper {
 }
 
 header figure {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -288,7 +291,8 @@ footer p {
 /*---------- Mobile Styles - Homepage ------*/
 
 .hero-area {
-  width: 90%;
+  background: url('../img/unplugged-hero-img.png') center no-repeat;
+  background-size: cover;
   height: 500px;
   margin: 0;
   padding: 6%;
@@ -375,6 +379,8 @@ input[type=button] {
 /*------------ Features Styles - Homepage --------*/
 
 .features {
+  background: url('../img/features-background.png') center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -419,34 +425,22 @@ input[type=button] {
 
 .reviews {
     background-color: #2a423a;
-    margin: 0;
     display: flex;
-    justify-content: flex-start;
-    flex-flow: column nowrap;
-}
-.reviews h2 {
-    margin-left: 20px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.reviews .content-wrapper {
-    width: 320px;
-    margin: 50px 20px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
     flex-flow: row wrap;
 }
-
-.lacrue h3 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 180px;
+.reviews h2 {
+    width: 90%;
+    margin: 40px 0;
+    line-height: 1;
 }
-
+.reviews .content-wrapper {
+  margin-top: 0;
+}
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
 /*--------------- About Page Styles ----------*/
 
 .mission {
@@ -731,34 +725,28 @@ aside .inputs {
   width: 45%;
   margin: 0;
 }
-
-.reviews {
-    margin: 0;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: column nowrap;
+.reviews article {
+  display: flex;
+  justify-content: space-between;
 }
 
 .reviews h2 {
     color: #ffffff;
-    margin-left: 64px;
-    margin-bottom: 0;
-    width: 73%;
+    width: 85%;
 }
-.reviews .content-wrapper {
-    width: 84%;
-    margin-left: 64px;
-    margin-top: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-flow: row wrap;
+
+.reviews article div {
+  width: 49%;
 }
-.lacrue h3 {
-  width: 240px;
+.reviews article figure {
+  width: 49%;
+  display: flex;
+  align-items: center;
 }
+.reviews h3 {
+  width: 320px;
+}
+
 .contact {
   margin-top: 40px;
 }
