@@ -534,9 +534,12 @@ input[type=button] {
   margin: 0;
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
   flex-flow: column nowrap;
 }
-
+.faq h4 {
+  margin: 0;
+}
 
 /* ==========================================================================
    Helper classes
@@ -682,7 +685,7 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 12%;
+  width: 15%;
 }
 
 footer .content-wrapper{
@@ -809,6 +812,7 @@ aside .inputs {
 }
 
 .faq .content-wrapper {
+  height: 500px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
