@@ -292,7 +292,7 @@ footer p {
   align-items: center;
 }
 .copyright p {
-  margin: 0;
+  margin: 10px;
 }
 /*---------- Mobile Styles - Homepage ------*/
 
@@ -465,12 +465,8 @@ input[type=button] {
   color: #ffffff;
 }
 
-.mission-content {
-
-}
 
 .map figure {
-    border: 1px solid red;
     position: relative;
     padding-bottom: 100%;
     height: 0;
@@ -645,7 +641,10 @@ h2 {
 h3 {
     font-size: 1.5em;
 }
-
+h4 {
+  font-size: 1.25em;
+  margin-top: 0;
+}
 
 
 
@@ -790,19 +789,33 @@ aside .inputs {
    About Page
    ========================================================================== */
 .mission-content {
-    display:
+    display: flex;
     justify-content: space-between;
-    align-items:
+    align-items: center;
 }
 
 .mission-content p {
-    width:
+    width:45%;
 }
-
-.contact-section .content-wrapper h2 {
-    width:
+.contact-section .contact-content {
+    border: 1px solid yellow;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row nowrap;
 }
-
+.contact-section h2 {
+  border: 1px solid red;
+  width: 100%;
+}
+.contact-section .content-wrapper {
+  border: 1px solid blue;
+  width: 85%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
     /* ==========================================================================
        FAQ Page
        ========================================================================== */
@@ -833,8 +846,15 @@ a {
 h1 {
     font-size: 3.75em;
 }
+h2 {
+  font-size: 3em;
+}
+
 h3 {
     font-size: 1.875em;
+}
+h4 {
+  margin-top: 0;
 }
 
 p {
@@ -851,6 +871,13 @@ aside {
 
 .map figure {
     padding-bottom: 35%;
+}
+.contact-section .contact-content {
+  width: 80%;
+}
+
+.contact-section .content-wrapper {
+  width: 80%;
 }
 
 address a {
